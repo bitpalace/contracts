@@ -21,8 +21,7 @@ npm install
 ```sh
 yarn hardhat run scripts/deploy.ts --network hyperspace
 
-# npx hardhat verify --network arbitrumOne 0x084Ac2D2B35209f0B73e54324e730F8760f88f18 "Tantan" "TAN" 18
-
+# task
 npx hardhat balance --account 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 10000.0 ETH
 ```
 
@@ -77,11 +76,11 @@ To try out Etherscan verification, you first need to deploy a contract to an Eth
 In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
 
 ```shell
-hardhat run --network ropsten scripts/deploy.ts
+hardhat run --network hyperspace scripts/deploy.ts
 ```
 
 Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
 
 ```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
+npx hardhat verify --network hyperspace DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 ```
