@@ -10,6 +10,11 @@
   "files": [
     "contracts"
   ],
+  "dependencies": {
+    "@zondax/filecoin-solidity": "^4.0.3",
+    "@zondax/solidity-bignumber": "^0.1.0",
+    "solidity-cborutils": "^2.0.0"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-etherscan": "^3.0.0",

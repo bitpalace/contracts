@@ -5,15 +5,13 @@ async function main() {
 
   const name = 'BitPalace Token'
   const symbol = 'BPT'
-  // const amount = 10000000000e18
 
-  // 初始化部署
+  // init deploy
   const token = await Token.deploy(name, symbol)
 
-  // 等待部署完成
+  // waitting contract deployed
   await token.deployed()
 
-  // 打印一下关键信息
   console.log(`Token deployed! Token name:${name}, deployed to: ${token.address}`)
 }
 

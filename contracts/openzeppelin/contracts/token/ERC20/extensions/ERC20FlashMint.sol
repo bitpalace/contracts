@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.1 (token/ERC20/extensions/ERC20FlashMint.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 import "../../../interfaces/IERC3156.sol";
 import "../ERC20.sol";

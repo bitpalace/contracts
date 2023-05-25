@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.1 (token/ERC1155/presets/ERC1155PresetMinterPauser.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 import "../ERC1155.sol";
 import "../extensions/ERC1155Burnable.sol";
