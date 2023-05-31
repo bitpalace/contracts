@@ -19,7 +19,7 @@ npm install
 
 ### Deploy
 ```sh
-yarn hardhat run scripts/deploy.ts --network hyperspace
+yarn hardhat run scripts/0_deploy_token.ts --network hyperspace
 
 # task
 npx hardhat balance --account 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 10000.0 ETH

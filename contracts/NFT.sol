@@ -6,7 +6,7 @@ contract NFT is ERC721 {
 
   uint256 public tokenCount;
 
-  constructor() ERC721("BitPalace NFT", "DNFT") {}
+  constructor(string memory name, string memory symbol) ERC721(name, symbol) {}
 
   function mint(address to) public {
     tokenCount = tokenCount + 1;
